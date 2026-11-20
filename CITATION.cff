@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: If you use this dataset, please cite this version and the source copy.
+title: '致 W. Cardwell 求醫信（Wellcome Collection Or Chinese, 13） / Chinese manuscript
+  letter to W. Cardwell [An illustrated request for medical help]: Transcription Dataset'
+type: dataset
+version: 0.1.0
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+repository-code: https://github.com/poplolioi11/wellcome-ad3ygayb-cardwell-patient-letter
+keywords:
+- 求醫信
+- W. Cardwell
+- patient correspondence
+- illness narratives
+- medical missions
+- history of medicine
+- Wellcome Collection
+- Or Chinese 13
+- Chinese manuscript
+- manuscript illustration
