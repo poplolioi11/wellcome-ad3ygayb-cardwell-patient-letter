@@ -30,4 +30,7 @@ An AI assistant transcribed the fixed source images column by column, preserving
 
 ## 引用及訂正 / Citation and corrections
 
+- 本版 DOI / Version DOI [v0.2.0](https://doi.org/10.5281/zenodo.24406306)
+- 所有版本 / All versions [Concept DOI](https://doi.org/10.5281/zenodo.24406277)
+
 曲宸宇（Chu, Chen-Yu）整理。引用本版請參考 [CITATION.cff](CITATION.cff)。如有可比對的字形，請附館方影像編號與欄位於 [Issues](https://github.com/poplolioi11/wellcome-ad3ygayb-cardwell-patient-letter/issues)。權利範圍見 [LICENSE.md](LICENSE.md)。
