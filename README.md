@@ -4,11 +4,11 @@
 
 This anonymous Chinese manuscript letter asks for medical help and combines a description of bodily distress with a hand-drawn figure. Wellcome Collection catalogues W. Cardwell as the recipient. The letter provides a patient’s account of illness and help-seeking in Chinese. The source is Wellcome Collection Or Chinese, 13.
 
-## V0.1.0
+## V0.2.0
 
-依館方一張影像，分錄正文直欄、較小旁字與圖旁題字，另標圖的位置。作者、年代與正文疑形如實標明。AI 輔助逐欄初錄，疑讀另記。
+依館方一張影像，分錄正文直欄、較小旁字與圖旁題字，另標圖的位置。作者、年代與正文疑形如實標明。比對未見初稿的本機 OCR 候選後，回圖裁定採用 5 筆訂正。未定讀法及部分小字、訓點留待覆核。
 
-The single digital image is indexed. The encoding distinguishes the main columns, marginal writing and figure labels. It identifies uncertain readings and the location of the drawing. AI-assisted initial transcription with uncertain readings marked.
+The single digital image is indexed. The encoding distinguishes the main columns, marginal writing and figure labels. It identifies uncertain readings and the location of the drawing. Independent local OCR candidates were compared with the initial transcription. Targeted source-image review adopted 5 corrections. Some readings, small notes, and reading marks still need review.
 
 ## 資料與原件 / Data and source
 

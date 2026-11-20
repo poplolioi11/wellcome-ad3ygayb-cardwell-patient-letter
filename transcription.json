@@ -19,13 +19,13 @@
     "manifest_url": "https://iiif.wellcomecollection.org/image/L0020813/info.json",
     "manifest_sha256": "f5a8a62c79c6c0cb1330c2878731baaffe7860d8d87e03c3e92370667a560cff",
     "record_id": "WELLAD3YGAYB",
-    "edition": "0.1.0",
+    "edition": "0.2.0",
     "catalogue_main_scope": [
       1
     ],
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dataset_title": "致 W. Cardwell 求醫信（Wellcome Collection Or Chinese, 13） / Chinese manuscript letter to W. Cardwell [An illustrated request for medical help]: Transcription Dataset",
-    "review_status": "initial-transcription",
+    "review_status": "targeted-image-adjudication",
     "editor": {
       "name": "Chu, Chen-Yu",
       "orcid": "0009-0003-9738-6914"
@@ -45,7 +45,7 @@
       "downloaded_width": 1772,
       "downloaded_height": 1088,
       "content_role": "illustrated-patient-letter",
-      "state": "initial-read",
+      "state": "ocr-compared-with-targeted-source-review",
       "sides": [
         {
           "side": "single",
@@ -54,19 +54,19 @@
               "text": "向有□瘡成管因勞傷怒傷"
             },
             {
-              "text": "致令中虛氣上虛火上行到頭頂"
+              "text": "致令□虛氣虛火上行到頭頂"
             },
             {
-              "text": "風雨更□甚□戰搖動心想"
+              "text": "風雨更勝甚激戰搖動心想"
             },
             {
-              "text": "不得口言不得耳目視聽不得病"
+              "text": "不得口言不得耳目視听不得病"
             },
             {
               "text": "在心肝腎虛□□真陰不足"
             },
             {
-              "text": "在臟腑經絡□不惟向前後"
+              "text": "在臟府經絡膜不惟向前後"
             },
             {
               "text": "皆□去引無形四肢麻表肉□"
@@ -75,7 +75,7 @@
               "text": "大空又有虛氣總是上衝而□"
             },
             {
-              "text": "日夜不爽快在肝節前□後□時散"
+              "text": "日夜不爽快在肝筋前激後□時散"
             },
             {
               "text": "時收散則空鼓收如硬棍"
@@ -121,7 +121,13 @@
               "location": "第8欄下緣偏右",
               "text": "〔字數未定〕",
               "column_anchor": 8,
-              "color": "unknown"
+              "color": "unknown",
+              "source_bbox": [
+                415,
+                873,
+                495,
+                1012
+              ]
             },
             {
               "type": "figure-label",
@@ -129,7 +135,13 @@
               "text": "〔字數未定〕此邊",
               "column_anchor": null,
               "color": "unknown",
-              "figure_zone": "f01-drawing"
+              "figure_zone": "f01-drawing",
+              "source_bbox": [
+                1546,
+                90,
+                1703,
+                280
+              ]
             },
             {
               "type": "figure-label",
@@ -137,7 +149,13 @@
               "text": "〔字數未定〕",
               "column_anchor": null,
               "color": "unknown",
-              "figure_zone": "f01-drawing"
+              "figure_zone": "f01-drawing",
+              "source_bbox": [
+                1542,
+                141,
+                1697,
+                374
+              ]
             },
             {
               "type": "figure-label",
@@ -145,7 +163,13 @@
               "text": "□□是從此上肩",
               "column_anchor": null,
               "color": "unknown",
-              "figure_zone": "f01-drawing"
+              "figure_zone": "f01-drawing",
+              "source_bbox": [
+                1616,
+                348,
+                1728,
+                834
+              ]
             },
             {
               "type": "figure-label",
@@ -153,7 +177,13 @@
               "text": "肝□入了一口氣勢進不動",
               "column_anchor": null,
               "color": "unknown",
-              "figure_zone": "f01-drawing"
+              "figure_zone": "f01-drawing",
+              "source_bbox": [
+                1534,
+                404,
+                1676,
+                1032
+              ]
             },
             {
               "type": "figure-label",
@@ -161,7 +191,13 @@
               "text": "□針□□",
               "column_anchor": null,
               "color": "unknown",
-              "figure_zone": "f01-drawing"
+              "figure_zone": "f01-drawing",
+              "source_bbox": [
+                1473,
+                605,
+                1570,
+                884
+              ]
             }
           ]
         }
@@ -170,184 +206,142 @@
         {
           "side": "single",
           "column": 1,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "有後一字",
+          "candidates": [
+            "痔",
+            "痣"
+          ],
+          "note": "疒清晰，下部筆形不足以分寺與志。"
         },
         {
           "side": "single",
-          "column": 3,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "column": 2,
+          "context": "令後一字",
+          "candidates": [
+            "自",
+            "白"
+          ],
+          "note": "字外框橢長，頂部與框內有短筆，待核。"
+        },
+        {
+          "side": "single",
+          "column": 4,
+          "context": "欄底病",
+          "candidates": [
+            "病",
+            "痛"
+          ],
+          "note": "疒部可辨，內部候讀未決，暫依初錄。"
         },
         {
           "side": "single",
           "column": 5,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "虛之後二字",
+          "candidates": [
+            "枕",
+            "極",
+            "虧"
+          ],
+          "note": "首字木旁清楚，右部、下一字疊墨與收筆待辨。"
         },
         {
           "side": "single",
           "column": 6,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "不後一字",
+          "candidates": [
+            "惟",
+            "停"
+          ],
+          "note": "細豎与欄邊小字分開，右部讀法仍待確認。"
         },
         {
           "side": "single",
           "column": 7,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "皆後及末字",
+          "candidates": [
+            "退",
+            "還",
+            "腦",
+            "脹"
+          ],
+          "note": "皆後的走之可辨；末字左部有月旁樣，兩處分別待定。"
         },
         {
           "side": "single",
           "column": 8,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "又之後和而之後",
+          "candidates": [
+            "有",
+            "背",
+            "卒",
+            "發"
+          ],
+          "note": "兩字各按欄位保留，部分疑似改筆。"
         },
         {
           "side": "single",
           "column": 9,
-          "context": "□",
-          "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
+          "context": "後之後一字",
+          "candidates": [
+            "滯",
+            "溜"
+          ],
+          "note": "氵可見，內部多圈連筆。"
         },
         {
           "side": "single",
           "column": 11,
-          "context": "□",
+          "context": "如針後二字",
           "candidates": [],
-          "note": "部分筆畫不清，原圖字形待核。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "第8欄下緣偏右",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "右側人體圖斜標，較上",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "右側人體圖斜標，較下",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "人體圖右下，外側直註",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "人體圖右下，中間直註",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": 12,
-          "context": "人體圖右下，內側直註",
-          "candidates": [],
-          "note": "此處墨跡或構件不清，以□保留未定字。"
-        },
-        {
-          "side": "single",
-          "column": null,
-          "context": "有",
-          "candidates": [],
-          "note": "第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。"
-        },
-        {
-          "side": "single",
-          "column": 3,
-          "context": "更",
-          "candidates": [],
-          "note": "第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。"
-        },
-        {
-          "side": "single",
-          "column": 3,
-          "context": "甚",
-          "candidates": [],
-          "note": "第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。"
-        },
-        {
-          "side": "single",
-          "column": null,
-          "context": "虛",
-          "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
-        },
-        {
-          "side": "single",
-          "column": 6,
-          "context": "絡",
-          "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
-        },
-        {
-          "side": "single",
-          "column": 7,
-          "context": "皆",
-          "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
+          "note": "下兩字筆劃與鄰欄貼近，保留兩格。"
         },
         {
           "side": "single",
           "column": 8,
-          "context": "而",
+          "context": "第8欄下緣偏右",
           "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
         },
         {
           "side": "single",
           "column": null,
-          "context": "前",
+          "context": "右側人體圖斜標，較上",
           "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
         },
         {
           "side": "single",
           "column": null,
-          "context": "後",
+          "context": "右側人體圖斜標，較下",
           "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
-        },
-        {
-          "side": "single",
-          "column": 11,
-          "context": "如針",
-          "candidates": [],
-          "note": "第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。"
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
         },
         {
           "side": "single",
           "column": null,
-          "context": "肝",
-          "candidates": [],
-          "note": "右側圖兩條斜註各自書寫，字界與讀法有疑。右下外側首兩字候「氣脈」，中間註「肝」後形近「粗／祖」。內側的「針」可辨，其餘仍有疑。圖內的線條不當作字。"
+          "context": "人體圖右下，外側直註",
+          "candidates": [
+            "氣脈",
+            "氣從"
+          ],
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
         },
         {
           "side": "single",
-          "column": 11,
-          "context": "針",
+          "column": null,
+          "context": "人體圖右下，中間直註",
+          "candidates": [
+            "粗",
+            "祖"
+          ],
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
+        },
+        {
+          "side": "single",
+          "column": null,
+          "context": "人體圖右下，內側直註",
           "candidates": [],
-          "note": "右側圖兩條斜註各自書寫，字界與讀法有疑。右下外側首兩字候「氣脈」，中間註「肝」後形近「粗／祖」。內側的「針」可辨，其餘仍有疑。圖內的線條不當作字。"
+          "note": "方框標未定字；淡墨和斜行的字界不強判。"
         }
       ],
       "facsimile_regions": [

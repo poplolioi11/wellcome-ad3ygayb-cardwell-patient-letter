@@ -1,0 +1,273 @@
+{
+  "terminology": "一筆修訂可包含同欄多字；依底本採用的修訂及仍待判的位置保留原圖入口。",
+  "changed_locations": 5,
+  "changes": [
+    {
+      "image": 1,
+      "side": "single",
+      "column": 2,
+      "kind": "main",
+      "op": "replace",
+      "before": "令中虛氣上虛",
+      "after": "令□虛氣虛",
+      "reason": "令後字作橢長框，較近自或白。第二個虛的上部屬同一字，初錄多分一上。",
+      "source_bbox": [
+        1003,
+        145,
+        1118,
+        560
+      ],
+      "offset": [
+        1,
+        7
+      ],
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas": "https://iiif.wellcomecollection.org/image/L0020813"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 3,
+      "kind": "main",
+      "op": "replace",
+      "before": "更□甚□戰",
+      "after": "更勝甚激戰",
+      "reason": "更下墨形左見月樣，右末作力；甚下的三點與第九欄的激近。",
+      "source_bbox": [
+        890,
+        205,
+        1011,
+        731
+      ],
+      "offset": [
+        2,
+        7
+      ],
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas": "https://iiif.wellcomecollection.org/image/L0020813"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 4,
+      "kind": "main",
+      "op": "replace",
+      "before": "視聽",
+      "after": "視听",
+      "reason": "視後為口旁加斤形，抄件採听。",
+      "source_bbox": [
+        799,
+        618,
+        911,
+        786
+      ],
+      "offset": [
+        8,
+        10
+      ],
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas": "https://iiif.wellcomecollection.org/image/L0020813"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 6,
+      "kind": "main",
+      "op": "replace",
+      "before": "臟腑經絡□",
+      "after": "臟府經絡膜",
+      "reason": "臟下字不見獨立月旁；絡下月旁與右邊小注的膜可比。",
+      "source_bbox": [
+        574,
+        164,
+        711,
+        610
+      ],
+      "offset": [
+        1,
+        6
+      ],
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas": "https://iiif.wellcomecollection.org/image/L0020813"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 9,
+      "kind": "main",
+      "op": "replace",
+      "before": "肝節前□",
+      "after": "肝筋前激",
+      "reason": "肝後竹頭下見月和力形，與筋相符；前後三點水與第3欄激字相近。",
+      "source_bbox": [
+        280,
+        455,
+        398,
+        755
+      ],
+      "offset": [
+        6,
+        10
+      ],
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas": "https://iiif.wellcomecollection.org/image/L0020813"
+    }
+  ],
+  "differences_for_future_review": [
+    {
+      "image": 1,
+      "side": "single",
+      "column": 1,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 2,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 4,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 5,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 6,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 7,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 8,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 9,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 11,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "字形待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 8,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": null,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": null,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": null,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": null,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": null,
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "status": "圖旁或欄旁字待核"
+    }
+  ],
+  "retained_readings": [
+    {
+      "image": 1,
+      "side": "single",
+      "column": 1,
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "source_bbox": [
+        1110,
+        592,
+        1236,
+        1053
+      ],
+      "reading": "因勞傷怒傷",
+      "status": "依原圖留讀",
+      "reason": "勞、怒從原欄辨出。"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 10,
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "source_bbox": [
+        190,
+        80,
+        288,
+        784
+      ],
+      "reading": "空鼓收如硬棍",
+      "status": "依原圖留讀",
+      "reason": "鼓的支部和棍的木旁可辨。"
+    },
+    {
+      "image": 1,
+      "side": "single",
+      "column": 12,
+      "source_image_sha256": "e8ba4600b266b313f2b9035478cf411b5236bfc18837a4a5ddff0441c3647233",
+      "canvas_id": "https://iiif.wellcomecollection.org/image/L0020813",
+      "source_bbox": [
+        73,
+        95,
+        146,
+        390
+      ],
+      "reading": "請發方",
+      "status": "依原圖留讀",
+      "reason": "短欄末為方，下方未見新增署款。"
+    }
+  ]
+}

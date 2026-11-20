@@ -12,10 +12,10 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>Transcription dataset v0.1.0</edition>
+        <edition>Transcription dataset v0.2.0</edition>
       </editionStmt>
       <publicationStmt>
-        <p>曲宸宇 (Chu, Chen-Yu). Dataset edition 0.1.0.</p>
+        <p>曲宸宇 (Chu, Chen-Yu). Dataset edition 0.2.0.</p>
       </publicationStmt>
       <sourceDesc>
         <msDesc>
@@ -65,19 +65,19 @@
               <seg type="diplomatic-text">向有□瘡成管因勞傷怒傷</seg>
             </ab>
             <ab type="column" n="2" xml:id="f01-s-c02">
-              <seg type="diplomatic-text">致令中虛氣上虛火上行到頭頂</seg>
+              <seg type="diplomatic-text">致令□虛氣虛火上行到頭頂</seg>
             </ab>
             <ab type="column" n="3" xml:id="f01-s-c03">
-              <seg type="diplomatic-text">風雨更□甚□戰搖動心想</seg>
+              <seg type="diplomatic-text">風雨更勝甚激戰搖動心想</seg>
             </ab>
             <ab type="column" n="4" xml:id="f01-s-c04">
-              <seg type="diplomatic-text">不得口言不得耳目視聽不得病</seg>
+              <seg type="diplomatic-text">不得口言不得耳目視听不得病</seg>
             </ab>
             <ab type="column" n="5" xml:id="f01-s-c05">
               <seg type="diplomatic-text">在心肝腎虛□□真陰不足</seg>
             </ab>
             <ab type="column" n="6" xml:id="f01-s-c06">
-              <seg type="diplomatic-text">在臟腑經絡□不惟向前後</seg>
+              <seg type="diplomatic-text">在臟府經絡膜不惟向前後</seg>
             </ab>
             <ab type="column" n="7" xml:id="f01-s-c07">
               <seg type="diplomatic-text">皆□去引無形四肢麻表肉□</seg>
@@ -86,7 +86,7 @@
               <seg type="diplomatic-text">大空又有虛氣總是上衝而□</seg>
             </ab>
             <ab type="column" n="9" xml:id="f01-s-c09">
-              <seg type="diplomatic-text">日夜不爽快在肝節前□後□時散</seg>
+              <seg type="diplomatic-text">日夜不爽快在肝筋前激後□時散</seg>
             </ab>
             <ab type="column" n="10" xml:id="f01-s-c10">
               <seg type="diplomatic-text">時收散則空鼓收如硬棍</seg>
@@ -141,108 +141,89 @@
           <div type="editorial-observations">
             <ab type="layout">單幅：本幅信箋同有人體圖與書信正文。圖在右，正文十二欄由右至左；圖旁標註、正文欄旁小字及深淺筆跡另記。館目說明原件黑、朱二色，此固定數位圖內無法可靠分色。 單幅：第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。 單幅：第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。 單幅：右側圖兩條斜註各自書寫，字界與讀法有疑。右下外側首兩字候「氣脈」，中間註「肝」後形近「粗／祖」。內側的「針」可辨，其餘仍有疑。圖內的線條不當作字。</ab>
             <ab type="transcription-issue" n="single:1">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>有後一字</quote>
+              <seg type="candidate">痔</seg>
+              <seg type="candidate">痣</seg>
+              <note type="editorial">疒清晰，下部筆形不足以分寺與志。</note>
             </ab>
-            <ab type="transcription-issue" n="single:3">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+            <ab type="transcription-issue" n="single:2">
+              <quote>令後一字</quote>
+              <seg type="candidate">自</seg>
+              <seg type="candidate">白</seg>
+              <note type="editorial">字外框橢長，頂部與框內有短筆，待核。</note>
+            </ab>
+            <ab type="transcription-issue" n="single:4">
+              <quote>欄底病</quote>
+              <seg type="candidate">病</seg>
+              <seg type="candidate">痛</seg>
+              <note type="editorial">疒部可辨，內部候讀未決，暫依初錄。</note>
             </ab>
             <ab type="transcription-issue" n="single:5">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>虛之後二字</quote>
+              <seg type="candidate">枕</seg>
+              <seg type="candidate">極</seg>
+              <seg type="candidate">虧</seg>
+              <note type="editorial">首字木旁清楚，右部、下一字疊墨與收筆待辨。</note>
             </ab>
             <ab type="transcription-issue" n="single:6">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>不後一字</quote>
+              <seg type="candidate">惟</seg>
+              <seg type="candidate">停</seg>
+              <note type="editorial">細豎与欄邊小字分開，右部讀法仍待確認。</note>
             </ab>
             <ab type="transcription-issue" n="single:7">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>皆後及末字</quote>
+              <seg type="candidate">退</seg>
+              <seg type="candidate">還</seg>
+              <seg type="candidate">腦</seg>
+              <seg type="candidate">脹</seg>
+              <note type="editorial">皆後的走之可辨；末字左部有月旁樣，兩處分別待定。</note>
             </ab>
             <ab type="transcription-issue" n="single:8">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>又之後和而之後</quote>
+              <seg type="candidate">有</seg>
+              <seg type="candidate">背</seg>
+              <seg type="candidate">卒</seg>
+              <seg type="candidate">發</seg>
+              <note type="editorial">兩字各按欄位保留，部分疑似改筆。</note>
             </ab>
             <ab type="transcription-issue" n="single:9">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
+              <quote>後之後一字</quote>
+              <seg type="candidate">滯</seg>
+              <seg type="candidate">溜</seg>
+              <note type="editorial">氵可見，內部多圈連筆。</note>
             </ab>
             <ab type="transcription-issue" n="single:11">
-              <quote>□</quote>
-              <note type="editorial">部分筆畫不清，原圖字形待核。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>第8欄下緣偏右</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>右側人體圖斜標，較上</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>右側人體圖斜標，較下</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>人體圖右下，外側直註</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>人體圖右下，中間直註</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:12">
-              <quote>人體圖右下，內側直註</quote>
-              <note type="editorial">此處墨跡或構件不清，以□保留未定字。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:None">
-              <quote>有</quote>
-              <note type="editorial">第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:3">
-              <quote>更</quote>
-              <note type="editorial">第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:3">
-              <quote>甚</quote>
-              <note type="editorial">第1欄「有」後疑「痔」或「痣」。第3欄「更」後疑「勝」，「甚」後疑「激」。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:None">
-              <quote>虛</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:6">
-              <quote>絡</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:7">
-              <quote>皆</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
+              <quote>如針後二字</quote>
+              <note type="editorial">下兩字筆劃與鄰欄貼近，保留兩格。</note>
             </ab>
             <ab type="transcription-issue" n="single:8">
-              <quote>而</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
+              <quote>第8欄下緣偏右</quote>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
             </ab>
             <ab type="transcription-issue" n="single:None">
-              <quote>前</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
+              <quote>右側人體圖斜標，較上</quote>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
             </ab>
             <ab type="transcription-issue" n="single:None">
-              <quote>後</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
-            </ab>
-            <ab type="transcription-issue" n="single:11">
-              <quote>如針</quote>
-              <note type="editorial">第5欄「虛」後首字有似木旁的筆畫，候「極／枕」，下一字仍疑。第6欄「絡」後候「隙」。第7欄「皆」後候「還」，末字候「脹／腦」。第8欄「而」後候「卒／發」，下緣偏右另有重疊筆畫。第9欄「前」後候「激／滯」，「後」後候「滿」。「如針」後墨畫交疊，按可見字位留格。</note>
+              <quote>右側人體圖斜標，較下</quote>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
             </ab>
             <ab type="transcription-issue" n="single:None">
-              <quote>肝</quote>
-              <note type="editorial">右側圖兩條斜註各自書寫，字界與讀法有疑。右下外側首兩字候「氣脈」，中間註「肝」後形近「粗／祖」。內側的「針」可辨，其餘仍有疑。圖內的線條不當作字。</note>
+              <quote>人體圖右下，外側直註</quote>
+              <seg type="candidate">氣脈</seg>
+              <seg type="candidate">氣從</seg>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
             </ab>
-            <ab type="transcription-issue" n="single:11">
-              <quote>針</quote>
-              <note type="editorial">右側圖兩條斜註各自書寫，字界與讀法有疑。右下外側首兩字候「氣脈」，中間註「肝」後形近「粗／祖」。內側的「針」可辨，其餘仍有疑。圖內的線條不當作字。</note>
+            <ab type="transcription-issue" n="single:None">
+              <quote>人體圖右下，中間直註</quote>
+              <seg type="candidate">粗</seg>
+              <seg type="candidate">祖</seg>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
+            </ab>
+            <ab type="transcription-issue" n="single:None">
+              <quote>人體圖右下，內側直註</quote>
+              <note type="editorial">方框標未定字；淡墨和斜行的字界不強判。</note>
             </ab>
           </div>
         </div>
